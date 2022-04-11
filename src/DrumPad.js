@@ -12,7 +12,16 @@ class DrumPad extends React.Component {
     };
 
     render() {
-        return <div className='drum-pad' id={this.state.label}>{this.state.key}</div>;
+        return <div className='drum-pad' id={this.state.label}>{this.state.key}
+            <audio
+                id={this.state.key}
+                className='clip'
+                controls
+                src="/media/cc0-audio/t-rex-roar.mp3">
+                Your browser does not support the
+                <code>audio</code> element.
+            </audio>
+        </div>;
     }
 }
 

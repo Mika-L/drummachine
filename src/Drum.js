@@ -6,7 +6,6 @@ class Drum extends React.Component {
     constructor(props) {
         super(props)
         this.state = {
-            textInput: '',
             pads: [
                 {
                     label: "Heater-1",
