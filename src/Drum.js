@@ -23,6 +23,12 @@ class Drum extends React.Component {
 
     render() {
         return <div id="drum-machine">
+            <div id="display">
+
+            </div>
+            <div className='drum-pad'>
+                
+            </div>
         </div>;
     }
 
